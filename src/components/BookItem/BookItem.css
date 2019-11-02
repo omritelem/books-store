@@ -1,0 +1,41 @@
+.BookItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 300px;
+    background-color: #548db0;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.BookItem:hover {
+    transform: scale(1.05);
+}
+
+header, h5, p {
+    color: white;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+footer {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    height: 30px;
+    border-radius: 8px;
+    background: #555860;
+    border: none;
+    color: white;
+    width: 60px;
+    outline: none;
+    cursor: pointer;
+}
